@@ -27,12 +27,9 @@ public class Patient {
 	
 	private String mobilenumber;
 	
-	@JsonIgnore
 	private String password; 
 	
-	@OneToMany(mappedBy = "patient", cascade = CascadeType.ALL, orphanRemoval = true)
-	@JsonIgnore
-	private List<Disease> disease;
+	
 
 	public String getFirstname() {
 		return firstname;
@@ -90,16 +87,9 @@ public class Patient {
 		this.password = password;
 	}
 
-	public List<Disease> getDisease() {
-		return disease;
-	}
-
-	public void setDisease(List<Disease> disease) {
-		this.disease = disease;
-	}
 
 	public Patient( String firstname, String lastname, LocalDate dateofbirth, String email, String gender,
-			String mobilenumber, String password, List<Disease> disease) {
+			String mobilenumber, String password) {
 		super();
 		this.firstname = firstname;
 		this.lastname = lastname;
@@ -108,12 +98,38 @@ public class Patient {
 		this.gender = gender;
 		this.mobilenumber = mobilenumber;
 		this.password = password;
-		this.disease = disease;
+		
+	}
+	
+	
+
+	public Long getId() {
+		return Id;
+	}
+
+	public void setId(Long id) {
+		Id = id;
+	}
+
+	public Patient(Long id, String firstname, String lastname, LocalDate dateofbirth, String email, String gender,
+			String mobilenumber, String password) {
+		super();
+		this.Id = id;
+		this.firstname = firstname;
+		this.lastname = lastname;
+		this.dateofbirth = dateofbirth;
+		this.email = email;
+		this.gender = gender;
+		this.mobilenumber = mobilenumber;
+		this.password = password;
+	
 	}
 
 	public Patient() {
 		super();
 	}
+
+
 	
 	
 
