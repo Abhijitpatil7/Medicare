@@ -2,6 +2,17 @@
  This is a basic medical Health Care which will remind you to take the Medicines .
  I have used java,spring boot as backend technology and react.js as frontend technology and MySql Database 
  
+ # Front End
+ React.js
+ Javascript
+ HTML
+ CSS
+ Bootstrap
+ 
+ # Back End
+ Java
+ Spring Boot
+ 
  ![Screenshot (102)](https://github.com/Abhijitpatil7/Medicare/assets/121028051/e5a35acb-d897-417e-83ea-9092b2e45533)
  ![Screenshot (104)](https://github.com/Abhijitpatil7/Medicare/assets/121028051/9e8b198f-c966-4ad7-b907-682e79e9d562)
 ![Screenshot (105)](https://github.com/Abhijitpatil7/Medicare/assets/121028051/03ee7807-22ef-4377-a2bf-e127ed65bfde)
