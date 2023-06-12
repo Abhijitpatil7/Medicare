@@ -1,0 +1,11 @@
+body {
+  
+    background: #93b0fb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgb(147, 171, 251), rgb(87, 163, 245));
+
+  }
+  .px-4{
+  background-color:rgba(17, 160, 255, 0.296);
+  }

@@ -1,0 +1,9 @@
+.table{
+ 
+    border: 1px solid;
+    row-gap: 20px;
+    font-style: italic;
+    font-size: 28px;
+   background-color: rgb(205, 245, 255); 
+
+}
